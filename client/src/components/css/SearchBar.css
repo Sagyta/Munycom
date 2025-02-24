@@ -1,0 +1,177 @@
+.buscador {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content:flex-end;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 5vh;
+    margin-right: 0vw;
+    border: #e78345 1px solid;
+    width: 40%;
+
+  }
+  .inputS {
+    margin: 5px;
+    height: 3.5vh;
+    width: 10vw;
+    border-radius: 5px;
+    border-color: #ffffff00;
+    outline: solid 2px #e78345;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+  .inputS:focus {
+    width: 13vw;
+    transition: all 0.3s ease;
+    text-align: justify;
+    border-color: #ffffff00;
+    outline: solid 2px #e78345;
+  }
+  .inputS:hover {
+    border-radius: 5px;
+    border-color: #ffffff00;
+    outline: solid 2px #e78345;
+    cursor: pointer;
+  }
+  
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+  
+    cursor: pointer;
+    border: solid 2px red;
+  }
+  
+  button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: black;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  button {
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  
+  button:focus,
+  button:hover {
+    color: #e78345;
+  }
+  
+  button:focus:after,
+  button:hover:after {
+    width: 100%;
+    left: 0%;
+    color: #e78345;
+  }
+  
+  button:after {
+    content: '';
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    color: #e78345;
+    width: 0%;
+    height: 2px;
+    background-color: #e78345;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+  
+  .button button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+  
+    cursor: pointer;
+    border: solid 2px red;
+  }
+  
+  .button button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: black;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button button {
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  
+  .button button:active,
+  .button button:hover {
+    color: #e78345;
+  }
+  
+  .button button:focus:after,
+  .button button:hover:after {
+    width: 100%;
+    left: 0%;
+    color: #e78345;
+  }
+  
+  .button button:after {
+    content: '';
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    color: #e78345;
+    width: 0%;
+    height: 2px;
+    background-color: #e78345;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+  

@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Fenix&display=swap');
+
+/* noticias en news*/
+.news{
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content:center;
+  align-items: center;
+  margin: auto;
+
+  width: 100%;
+  height: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /*transition: all 0.3s ease;
+  background-color: #25e20c83;
+  backdrop-filter: blur(5px);*/
+  border: 1px red solid;
+}
+
+.news .titleNewss {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  margin: auto;
+  margin-top: 10px;
+  justify-content: center;
+  height: 10vh;
+  width: 90%;
+  color: #fff;
+  padding: 1px;
+  font-weight: 700;
+  position: relative;
+  text-transform: uppercase;
+  flex-direction: row;
+  font-size: 25px;
+  font-family: 'Fenix', serif;
+}
+.news .subtitleNews {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 18px;
+  justify-content: center;
+  height: 20%;
+  width: 90%;
+  color: #fff;
+  padding: 1px;
+  font-weight: 100;
+  position: relative;
+  flex-direction: row;
+  font-family: 'Fenix', serif;
+}
+/* fin noticias en news*/
+
+/* noticias en newsDetails*/
+.detalleNoticia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: -18%;
+  background-color: #fff;
+  width: 90%;
+  height: 100%;
+  border: coral 3px solid;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.detalleNoticia img {
+  width: 100%;
+  height: 60%;
+  border: double 3px black;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.video{
+  width: 100%;
+  height: 60%;
+  background-color: aqua;
+  border: darkgreen 3px solid;
+}
+.noticiaTitulo {
+  color: #000000;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  /* text-transform: uppercase; */
+  /* text-shadow: 2px 2px 2px grey; */
+  font-family: 'Fenix', serif;
+  margin-bottom: 20px;
+}
+.noticiaSubtitulo {
+  color: #161515;
+  padding: 1px;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: 'Fenix', serif;
+}
+.noticiaTexto {
+  color: #272020;
+  padding: 1px;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: justify;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  font-family: 'Fenix', serif;
+}
+/* noticias en newsDetails*/
+
+/*comentarios*/
+.sectionEscribirComentario {
+  margin-top: 5px;
+  /* border-top: double 5px black; */
+  padding-top: 20px;
+  width: 100%;
+  margin-bottom: 250px;
+}
+.sectionEscribirComentario h3 {
+  text-decoration: underline;
+}
+.sectionEscribirComentario input {
+  display: flex;
+  margin-left: 25%;
+  width: 30%;
+  height: 30%;
+}
+.sectionEscribirComentario label {
+  display: flex;
+  margin-left: 25%;
+  width: 30%;
+  height: 30%;
+}
+.sectionEscribirComentario textarea {
+  display: flex;
+  margin-left: 20%;
+  width: 50%;
+  height: 60%;
+  transition: all 0.3s ease;
+}
+
+.seccionComentarios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  margin-top: 200px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  width: 100%;
+  background-color: #fff;
+}
+.seccionComentarios h3 {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 2px gray;
+}
+.seccionComentarios input {
+  width: 150px;
+  height: 10px;
+  border-radius: 5px;
+}
+.seccionComentarios input:hover {
+  width: 150px;
+  height: 10px;
+  border-radius: 5px;
+  outline: #28139e;
+}
+.seccionComentarios textarea {
+  resize: none;
+  margin: auto;
+  margin-top: 20px;
+}
+.seccionComentariosHechos h3 {
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 2px gray;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: row;
+}
+.comentariosHechos p {
+  width: 100%;
+  border: #000000e3 solid 1px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.167);
+  backdrop-filter: blur(9px);
+  margin-left: -20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.containerComment {
+  width: 100%;
+  border: #000000e3 solid 1px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.167);
+  backdrop-filter: blur(9px);
+  margin-left: -20px;
+}
+
+
+/* -------------------------LOADER------------------------- */
+
+.loader {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 22%;
+}
+ 

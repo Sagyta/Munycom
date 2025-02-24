@@ -1,0 +1,279 @@
+.contenedorGeneral {
+    position: absolute;
+    margin-top: -5px;
+    z-index: 10;
+    width: 100%;
+    background-color: aqua;
+  }
+  
+  .contenidoCentral {
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  
+    margin: auto;
+    width: 100%;
+    border: double 5px rgba(0, 0, 0, 0);
+    margin-bottom: 50px;
+    position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0);
+    width: 90%;
+  
+   /* background-image: url('../../utils/fotos/fondoNoticias.png');*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .contenido {
+    margin-top: 100px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    top: -10vh;
+    left: 0%;
+    width: 500px;
+  }
+  .menu ul {
+    display: flex;
+  }
+  .menu li {
+    padding: 0 10px;
+    transition: all 0.3s ease;
+  }
+  .menu li:hover {
+    color: #e78345;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+  }
+  .menu li:focus {
+    color: #e78345;
+  }
+  .menu a {
+    color: black;
+  }
+  .menu a:hover {
+    color: #e78345;
+    transform: scale(1.2);
+  }
+  .quienesSomos h2 {
+    color: #e78345;
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+  .quienesSomos p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    text-align: justify;
+  }
+  /*BOTONES*/
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 530px;
+    margin-left: -600px;
+    cursor: pointer;
+  }
+  
+  button {
+    font-size: 18px;
+    color: #e1e1e1;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  button:hover .boton button:focus {
+    color: #e78345;
+  }
+  
+  button:focus:after,
+  button:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  button:after {
+    content: '';
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+  
+  /*FUENTES*/
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&display=swap');
+  
+  /* .contenedorGeneral{
+    background-color: black;
+    background-image: url('../../utils/fotos/fondoHenry.jpg');
+    background-image: linear-gradient(to right,  rgb(255, 255, 255),#222861, #ffffff);;
+  } */
+  
+  /*noticias*/
+  
+  .titleNews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 5px 10px 5px gray;
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    height: 60px;
+    margin-top: -250px;
+  }
+  
+  .imagen {
+    height: 100%;
+    width: 200px;
+  }
+  .titleActividades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 5px 10px 5px gray;
+    color: #fff;
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .deportes {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-left: 4%;
+    border-right: 4%;
+  
+    background-color: #e78345;
+    margin-top: -10px;
+  
+    padding: 20px;
+  }
+  
+  .deporte {
+    width: 30%;
+    height: 800px;
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-left: 4%;
+    border-right: 4%;
+    display: grid;
+    grid-area: 2/4/5/6;
+    padding-bottom: 0px;
+    border-radius: 20px 20px;
+  }
+  .deporte p {
+    text-align: justify;
+    width: 400px;
+    margin: auto;
+  }
+  .futbol {
+    display: flex;
+    flex-direction: column;
+  }
+  .futbol img {
+    margin-top: 20px;
+    width: 100%;
+    height: 700px;
+  }
+  
+  .hockey {
+    display: flex;
+    flex-direction: column;
+  }
+  .hockey img {
+    margin-top: 20px;
+    width: 100%;
+    height: 700px;
+  }
+  .natacion {
+    display: flex;
+    flex-direction: column;
+  }
+  .natacion img {
+    margin-top: 20px;
+    width: 100%;
+    height: 700px;
+  }
+  
+  .botonNL{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+  text-shadow: 5px 5px 5px grey;
+  color: white;
+    text-align: center;
+  background-color: black;
+    width: 100%;
+    background-color: black;
+    height: 60px;
+   
+    font-weight: 100;
+  }
+  .newsletter{
+    font-weight: 700;
+  }
+  .sectionNewsLetters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 50%;
+  }
+  .titNewsletters{
+    color: #e78345;
+  }
+  .inputNewsLetters{
+    text-align: center;
+  
+  }
+  /* -------------------------LOADER------------------------- */
+  
+  .loader {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 22%;
+  }
+  
